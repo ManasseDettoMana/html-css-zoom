@@ -69,9 +69,28 @@ header div span{
     max-width: 80%;
 
 }
-
-
-
 footer{
+    display: flex;
     height: 80px;
+    justify-content: space-between;
+    
+}
+
+.footer-left,
+.footer-center,
+.footer-right{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon{
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    cursor: pointer;
 }
