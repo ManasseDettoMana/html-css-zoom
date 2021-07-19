@@ -42,12 +42,11 @@ header div span{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 800px;
 
 }
 
 .partecipante{
-    /* margin: 5px; */
     border: 5px solid black;
     width: 250px;
     height: 150px;
@@ -94,3 +93,20 @@ footer{
     height: 100%;
     cursor: pointer;
 }
+
+.icon i{
+    font-size: 1.5em;
+}
+.footer-right .icon:last-of-type{
+    background-color: rgba(31, 31, 31, 0.4);
+
+}
+
+.footer-right .icon:last-of-type span{
+    color: red;
+}
+
+#share-screen{
+    color: green;
+}
+
